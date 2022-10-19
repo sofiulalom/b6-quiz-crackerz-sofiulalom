@@ -8,11 +8,11 @@ const Header = () => {
             <div>
             <h2 className='text-3xl font-bold text-purple-500'>pograming quiz</h2>
             </div>
-        <nav className='text-red-500 text-1xl mr-4'>
+        <nav className='text-red-500 text-1xl mr-4 '>
                 <Link to='/'></Link>
-                <Link className='mr-4' to='/home'>Home</Link>
-                <Link className='mr-4' to='/satistics'>Satistics</Link>
-                <Link className='mr-4' to='/blog'>Blog</Link>
+                <Link className='mr-4 hover:bg-sky-700 p-3 hover:text-white' to='/home'>Home</Link>
+                <Link className='mr-4 hover:bg-sky-700 p-3 hover:text-white' to='/satistics'>Satistics</Link>
+                <Link className='mr-4 hover:bg-sky-700 p-3 hover:text-white' to='/blog'>Blog</Link>
                 
 
             </nav>
