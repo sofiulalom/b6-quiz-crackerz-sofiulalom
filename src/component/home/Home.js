@@ -5,8 +5,8 @@ import { useLoaderData} from 'react-router-dom';
 import Cart from '../cart/Cart';
 
 
-const Home = () => {
-    
+const Home = ({pramas}) => {
+    const quizs=useLoaderData()
     
     return (
         <div>
@@ -31,7 +31,12 @@ const Home = () => {
          </div>
         
          </div>
-          
+          <div className='flex quiz'>
+          {
+            quizs.data.map(quiz => <Cart key={quiz.id} quiz={quiz}></Cart>)
+           }
+
+          </div>
            
         </div>
     );
