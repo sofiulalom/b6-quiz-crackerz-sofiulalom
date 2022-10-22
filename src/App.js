@@ -5,6 +5,8 @@ import Main from './leyout/Main';
 import Home from './component/home/Home';
 import Satistics from './component/satistics/Satistics';
 import Blog from './component/blog/Blog';
+import Quizs from './component/quizs/Quizs';
+import Quiz from './component/quiz/Quiz';
 
 
 function App() {
@@ -30,6 +32,21 @@ function App() {
          {
           path:'/satistics',
           element: <Satistics></Satistics>
+         },
+         {
+           path:'/quizs',
+           loader:async () =>{
+           return fetch(`https://openapi.programming-hero.com/api/quiz`)
+            
+           },
+           element: <Quizs></Quizs>
+         },
+         {
+         path:'/quiz/:quizId',
+         loader:async({params})=>{
+          return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`)
+         },
+         element:<Quiz></Quiz>
          },
          {
           path:'/blog',
