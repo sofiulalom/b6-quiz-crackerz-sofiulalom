@@ -24,9 +24,8 @@ const Home = ({pramas}) => {
          </div>
          <div className='purple'>
             <h1 className='text-2xl font-bold'>welcome to my pograming quiz</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, error culpa laudantium aperiam saepe sequi, repudiandae eius maxime ducimus natus fugit aut optio inventore voluptates. Amet maiores voluptates minima beatae!
-            Quaerat unde eveniet assumenda, quo vitae nobis delectus nihil, rem numquam facilis fugiat ipsa commodi ipsam eligendi tenetur tempore voluptatum ab velit? Eum eaque perferendis reiciendis fugit ab excepturi ratione?
-            Blanditiis temporibus maiores excepturi tenetur non deserunt, laborum, dolor consequatur magnam quam accusantium, quo aliquid. Eaque maxime  
+            <p>
+            Below, we have made an exciting Paragraph writing MCQs quiz for you. Ever wondered about the fact that how much do you know about the basics of paragraph writing? Do you know what the main components of a paragraph are? What are the different types of paragraphs? Check out our this Paragraph writing MCQs quiz and learn everything there is to know about paragraph writing. Do not forget to leave a comment. 
             </p>
          </div>
         
