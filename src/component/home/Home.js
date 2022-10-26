@@ -31,7 +31,7 @@ const Home = ({pramas}) => {
          </div>
         
          </div>
-          <div className='flex quiz'>
+          <div className='quiz'>
           {
             quizs.data.map(quiz => <Cart key={quiz.id} quiz={quiz}></Cart>)
            }

@@ -1,0 +1,44 @@
+.form-check{
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px;
+}
+.react{
+    border: 2px solid grey;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+.logo{
+    width: 100px;
+    margin: auto;
+    background-color:  gray;
+    border-radius: 100%;
+}
+.logo img{
+    width: 100%;
+}
+.quizBox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+    .quizBox{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .react{
+        width: 400px;
+    }
+}
+@media screen and (min-width: 960px){
+    .quizBox{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}

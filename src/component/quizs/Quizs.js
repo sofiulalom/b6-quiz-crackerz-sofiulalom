@@ -9,9 +9,12 @@ const Quizs = () => {
     console.log(quizData);
     return (
         <div>
-            <h1>quizs details lookit quiz{} </h1>
+            <h1>quizs details lookit quiz </h1>
            {
-            quizData.data.map(quiz => <Quiz key={quiz.id} quiz={quiz}></Quiz>)
+            quizData.data.map(quiz =><Quiz 
+                key={quiz.id} 
+                quiz={quiz}
+            ></Quiz>)
            }
             
         </div>
